@@ -1,0 +1,14 @@
+tick_rate = 50
+CorrectionScheme:Ecp
+{
+num_pointers = 4
+protect_auxiliary=true
+fault_representations=FixedRowModel
+}
+
+FaultModel:FixedRowModel
+{
+stuck=1
+num_faults=5
+max_fault_position=16
+}
